@@ -1,0 +1,89 @@
+/* Portfolio Carousel Styling */
+.portfolio-section {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.carousel-slide {
+  display: none;
+}
+
+.carousel-slide img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Navigation arrows */
+.carousel-prev, .carousel-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 14px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  transition: 0.4s;
+  border-radius: 50%;
+  user-select: none;
+  background: rgba(0,0,0,0.5);
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-prev:hover, .carousel-next:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+/* Dots */
+.carousel-dots {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  margin: 0 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fade effect */
+.fade {
+  animation: fadeEffect 2.0s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0.4;}
+  to {opacity: 1;}
+}

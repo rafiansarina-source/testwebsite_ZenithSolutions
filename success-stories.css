@@ -1,0 +1,59 @@
+/* Success Stories Section */
+.success-stories-section {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+
+.success-stories-section .section-header {
+  margin-bottom: 40px;
+}
+
+.success-stories-section .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.success-stories-section .section-subtitle {
+  font-size: 16px;
+  color: #666;
+}
+
+.story-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.story-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.story-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.story-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.story-content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #0056a3;
+}
+
+.story-content p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
